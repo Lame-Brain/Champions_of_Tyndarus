@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 111dd78068a17084a8da209c5330692f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hammerhead
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cfe4ef0d76f7efa4caddc75cfc6a67af, type: 3}
+  - {fileID: 12800000, guid: 899dcaa1494611443913a276d4f07505, type: 3}
+  - {fileID: 12800000, guid: dde5907b13e1a6f4b85e061d120b4fc7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
