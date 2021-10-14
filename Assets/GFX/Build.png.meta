@@ -4,52 +4,67 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6041240624108988605
-    second: White_army
+    second: white_army1
   - first:
       213: -5204848491471413481
-    second: Black_army
+    second: dark_army1
   - first:
       213: 9219913664671397250
-    second: Blue_Army
+    second: blue_army1
   - first:
       213: -5177660719279873439
-    second: Green_Army
+    second: green_army1
   - first:
       213: 1988323188749664854
-    second: Red_Army
+    second: red_army1
   - first:
       213: -99237847631342211
-    second: Citadel
+    second: citadel
   - first:
       213: 6498493887087104397
-    second: Hill_cave
+    second: hill_cave
   - first:
       213: 8656425454359961790
-    second: Hill
+    second: hill
   - first:
       213: 2890604130156774178
-    second: Mountain_Cave
+    second: mountain_cave
   - first:
       213: 6359961539438780154
-    second: Keep
+    second: keep
   - first:
       213: -7159901821236282516
-    second: Lith
+    second: lith
   - first:
       213: 2532960721169350538
-    second: Mountain
+    second: mountain
   - first:
       213: 455245723913876353
-    second: Stones
+    second: stones
   - first:
       213: -5879802447703765740
-    second: Trees
+    second: trees
   - first:
       213: 3720596012300874008
-    second: Tower
+    second: tower
   - first:
       213: 3919384969246462830
-    second: Village
+    second: village
+  - first:
+      213: 3930951901400142009
+    second: white_army2
+  - first:
+      213: -2676344173369608753
+    second: dark_army2
+  - first:
+      213: -1434533576655192507
+    second: blue_army2
+  - first:
+      213: -7569423366178027103
+    second: green_army2
+  - first:
+      213: 8016651843525807075
+    second: red_army2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -175,15 +190,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: White_army
+      name: light_army1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,15 +211,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_army
+      name: dark_army1
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,15 +232,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Army
+      name: blue_army1
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,15 +253,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Army
+      name: green_army1
       rect:
         serializedVersion: 2
         x: 384
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,15 +274,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red_Army
+      name: red_army1
       rect:
         serializedVersion: 2
         x: 512
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,15 +295,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Citadel
+      name: citadel
       rect:
         serializedVersion: 2
         x: 640
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,15 +316,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hill_cave
+      name: hill_cave
       rect:
         serializedVersion: 2
         x: 768
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,15 +337,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hill
+      name: hill
       rect:
         serializedVersion: 2
         x: 896
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,15 +358,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mountain_Cave
+      name: mountain_cave
       rect:
         serializedVersion: 2
         x: 1024
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -364,15 +379,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keep
+      name: keep
       rect:
         serializedVersion: 2
         x: 1152
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -385,15 +400,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lith
+      name: lith
       rect:
         serializedVersion: 2
         x: 1280
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -406,15 +421,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mountain
+      name: mountain
       rect:
         serializedVersion: 2
         x: 1408
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -427,15 +442,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stones
+      name: stones
       rect:
         serializedVersion: 2
         x: 1536
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -448,15 +463,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees
+      name: trees
       rect:
         serializedVersion: 2
         x: 1664
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -469,15 +484,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tower
+      name: tower
       rect:
         serializedVersion: 2
         x: 1792
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -490,15 +505,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Village
+      name: village
       rect:
         serializedVersion: 2
         x: 1920
-        y: 0
+        y: 80
         width: 128
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -506,6 +521,111 @@ TextureImporter:
       bones: []
       spriteID: e63d0fd1dd3746630800000000000000
       internalID: 3919384969246462830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_army2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b01a106deb8d8630800000000000000
+      internalID: 3930951901400142009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_army2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc53e997727bbdad0800000000000000
+      internalID: -2676344173369608753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_army2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb8110053871ce0800000000000000
+      internalID: -1434533576655192507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_army2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ca609d8104f690800000000000000
+      internalID: -7569423366178027103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_army2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb065da06ed04f60800000000000000
+      internalID: 8016651843525807075
       vertices: []
       indices: 
       edges: []
