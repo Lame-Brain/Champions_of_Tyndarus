@@ -8,10 +8,12 @@ public class Character
 {
     public Alignment alignment;
     public Race race;
+    public Gender gender;
     public int portrait = 0,
         strength = 0, //measures damage dealt in combat
         vitality = 0, //measures health gain
         endurance = 0, //measures morale
+        intelligence = 0,
         agility = 0, //used for stealth and skullduggery
         charisma = 0; //used for persuasion and leadership
     public float

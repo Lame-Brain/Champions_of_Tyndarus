@@ -6,7 +6,8 @@ namespace CoT_Game
 {
     public enum Alignment { good, neutral, evil }
     public enum Race { human, elf, dwarf, darkling, beast, were, dragon, undead }
-    public enum Effect { poison, regen, curse, bless, held, stone, severed, blind, heroic, unconcious, catatonic, dead, ashes}
+    public enum Effect { poison, regen, curse, bless, held, stone, severed, blind, heroic, unconcious, catatonic, dead, ashes }
+    public enum Gender { he, she, it }
     /* Effect List with definitions
      * poison = loses health every step
      * regen = gain health every step

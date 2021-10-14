@@ -14,10 +14,11 @@ public class Hero : Character
         current_Morale = 0f,
         max_Morale = 0f,
         current_Mana = 0f,
-        max_Mana = 0f, 
+        max_Mana = 0f,
+        drain_Mana = 0f,
         current_Actions = 0f,
         max_Actions = 0f,
-        weeksOld = 0f;
+        weeksOld = 936f;
 
     public int XP = 0,
         XP_NNL = 0,

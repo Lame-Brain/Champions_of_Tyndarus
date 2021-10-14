@@ -32,10 +32,12 @@ public static class SaveLoad
                     writer.Write(Roster[_i].heritage);
                     writer.Write(Roster[_i].alignment.ToString());
                     writer.Write(Roster[_i].race.ToString());
+                    writer.Write(Roster[_i].gender.ToString());
                     writer.Write(Roster[_i].portrait);
                     writer.Write(Roster[_i].strength);
                     writer.Write(Roster[_i].vitality);
                     writer.Write(Roster[_i].endurance);
+                    writer.Write(Roster[_i].intelligence);
                     writer.Write(Roster[_i].agility);
                     writer.Write(Roster[_i].charisma);
                     writer.Write(Roster[_i].current_Health);
@@ -45,6 +47,7 @@ public static class SaveLoad
                     writer.Write(Roster[_i].max_Morale);
                     writer.Write(Roster[_i].current_Mana);
                     writer.Write(Roster[_i].max_Mana);
+                    writer.Write(Roster[_i].drain_Mana);
                     writer.Write(Roster[_i].current_Actions);
                     writer.Write(Roster[_i].max_Actions);
                     writer.Write(Roster[_i].weeksOld);
@@ -97,11 +100,13 @@ public static class SaveLoad
 
                 string _s = reader.ReadString(); Alignment _alignEnum = (Alignment)System.Enum.Parse(typeof(Alignment), _s); _loadedCharacter.alignment = _alignEnum;
                 _s = reader.ReadString(); Race _raceEnum = (Race)System.Enum.Parse(typeof(Race), _s); _loadedCharacter.race = _raceEnum;
-                _loadedCharacter.portrait = reader.ReadInt32();
+                _s = reader.ReadString(); Gender _genderEnum = (Gender)System.Enum.Parse(typeof(Gender), _s); _loadedCharacter.gender = _genderEnum;
 
+                _loadedCharacter.portrait = reader.ReadInt32();
                 _loadedCharacter.strength = reader.ReadInt32();
                 _loadedCharacter.vitality = reader.ReadInt32();
                 _loadedCharacter.endurance = reader.ReadInt32();
+                _loadedCharacter.intelligence = reader.ReadInt32();
                 _loadedCharacter.agility = reader.ReadInt32();
                 _loadedCharacter.charisma = reader.ReadInt32();
                 _loadedCharacter.current_Health = reader.ReadSingle();
@@ -111,6 +116,7 @@ public static class SaveLoad
                 _loadedCharacter.max_Morale = reader.ReadSingle();
                 _loadedCharacter.current_Mana = reader.ReadSingle();
                 _loadedCharacter.max_Mana = reader.ReadSingle();
+                _loadedCharacter.drain_Mana = reader.ReadSingle();
                 _loadedCharacter.current_Actions = reader.ReadSingle();
                 _loadedCharacter.max_Actions = reader.ReadSingle();
                 _loadedCharacter.weeksOld = reader.ReadSingle();
