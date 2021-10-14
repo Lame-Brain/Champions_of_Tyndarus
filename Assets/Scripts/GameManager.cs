@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {        
         SaveLoad.InitSaveLoad();
-        DebugRosterSetup();
+        //DebugRosterSetup();
         DebugPartySetup();
 
         ui.UpdateScreen();
