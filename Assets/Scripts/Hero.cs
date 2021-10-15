@@ -6,7 +6,7 @@ public class Hero : Character
 {
     public string name = "",
     title = "",
-    upbringing = "",
+    upbringing = "", //Noble, Merchant, Trade, Street, Farmer
     heritage = "";
 
     public float current_Health = 0f,
@@ -20,9 +20,9 @@ public class Hero : Character
         max_Actions = 0f,
         weeksOld = 936f;
 
-    public int XP = 0,
-        XP_NNL = 0,
-        XP_level = 0,
+    public int XP_level = 0;
+    public float XP = 0,
+        XP_NNL = 0,        
         XP_drain = 0;
 
     public float wealth = 0f;

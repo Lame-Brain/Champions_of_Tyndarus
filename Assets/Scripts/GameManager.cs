@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
         _hero[2] = new Hero();
         _hero[2].alignment = CoT_Game.Alignment.good;
         _hero[2].race = CoT_Game.Race.human;
-        _hero[2].gender = CoT_Game.Gender.he;
+        _hero[2].gender = CoT_Game.Gender.she;
         _hero[2].name = "Jinx";
         _hero[2].title = "Lucky Fingers";
         _hero[2].upbringing = "Street";
@@ -181,7 +181,7 @@ public class GameManager : MonoBehaviour
         _hero[3].gender = CoT_Game.Gender.he;
         _hero[3].name = "Zaldon";
         _hero[3].title = "Wise";
-        _hero[3].upbringing = "Noble";
+        _hero[3].upbringing = "Farmer";
         _hero[3].heritage = "Tower of Zaldon";
         _hero[3].portrait = 0;
         _hero[3].strength = -3;
@@ -235,6 +235,21 @@ public class GameManager : MonoBehaviour
         partySlot[1] = SaveLoad.Roster[1];
         partySlot[2] = SaveLoad.Roster[2];
         partySlot[3] = SaveLoad.Roster[3];
-        partyList.Add(partySlot);
+
+        partySlot[0].effects.Add("poison");
+        partySlot[0].effects.Add("regen");
+        partySlot[0].effects.Add("curse");
+        partySlot[0].effects.Add("bless");
+        partySlot[0].effects.Add("held");
+        partySlot[0].effects.Add("stone");
+        partySlot[0].effects.Add("severed");
+        partySlot[0].effects.Add("blind");
+        partySlot[0].effects.Add("heroic");
+        partySlot[0].effects.Add("unconcious");
+        partySlot[0].effects.Add("catatonic");
+        partySlot[0].effects.Add("dead");
+        partySlot[0].effects.Add("ashes");
+
+        partyList.Add(partySlot);                    
     }
 }

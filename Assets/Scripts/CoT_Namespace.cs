@@ -8,6 +8,7 @@ namespace CoT_Game
     public enum Race { human, elf, dwarf, darkling, beast, were, dragon, undead }
     public enum Effect { poison, regen, curse, bless, held, stone, severed, blind, heroic, unconcious, catatonic, dead, ashes }
     public enum Gender { he, she, it }
+
     /* Effect List with definitions
      * poison = loses health every step
      * regen = gain health every step
@@ -40,9 +41,16 @@ namespace CoT_Game
             return _result;
         }
     }
-
 }
 
 public static class CoT_Namespace
 {
+    public static string Capitalize(string s)
+    {
+        if (string.IsNullOrEmpty(s)) return string.Empty;
+
+        char[] a = s.ToCharArray();
+        a[0] = char.ToUpper(a[0]);
+        return new string(a);
+    }
 }

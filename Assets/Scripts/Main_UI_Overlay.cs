@@ -16,7 +16,7 @@ public class Main_UI_Overlay : MonoBehaviour
     {
         if (GameManager.GAME.partyList.Count > 0)
         {
-            Hero[] _hero = GameManager.GAME.partyList[0];
+            Hero[] _hero = GameManager.GAME.partyList[GameManager.GAME.PartyIndex];
             for (int _i = 0; _i < 4; _i++)
             {
                 PartyMember_Slot[_i].SetActive(false);
@@ -28,5 +28,13 @@ public class Main_UI_Overlay : MonoBehaviour
                     
             }            
         }
+    }
+
+    public void OpenCharacterSheet(int _index)
+    {
+        GameObject _go = Instantiate(Character_Sheet_Prefab, transform);
+        Hero[] _hero = GameManager.GAME.partyList[GameManager.GAME.PartyIndex];
+        _go.GetComponent<Character_Sheet_Controller>().UpdateScreen(_hero[_index]);
+        
     }
 }

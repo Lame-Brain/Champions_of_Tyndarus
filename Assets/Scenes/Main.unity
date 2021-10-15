@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 122312775}
   - component: {fileID: 122312777}
   - component: {fileID: 122312776}
+  - component: {fileID: 122312778}
   m_Layer: 5
   m_Name: HeroSlot (4)
   m_TagString: Untagged
@@ -352,6 +353,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122312774}
   m_CullTransparentMesh: 1
+--- !u!114 &122312778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122312774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1479587444}
+          m_TargetAssemblyTypeName: Main_UI_Overlay, Assembly-CSharp
+          m_MethodName: OpenCharacterSheet
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &261126831
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +514,7 @@ GameObject:
   - component: {fileID: 420057663}
   - component: {fileID: 420057665}
   - component: {fileID: 420057664}
+  - component: {fileID: 420057666}
   m_Layer: 5
   m_Name: HeroSlot (2)
   m_TagString: Untagged
@@ -549,6 +580,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420057662}
   m_CullTransparentMesh: 1
+--- !u!114 &420057666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420057662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1479587444}
+          m_TargetAssemblyTypeName: Main_UI_Overlay, Assembly-CSharp
+          m_MethodName: OpenCharacterSheet
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +871,7 @@ GameObject:
   - component: {fileID: 1049571668}
   - component: {fileID: 1049571670}
   - component: {fileID: 1049571669}
+  - component: {fileID: 1049571671}
   m_Layer: 5
   m_Name: HeroSlot (3)
   m_TagString: Untagged
@@ -876,6 +937,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049571667}
   m_CullTransparentMesh: 1
+--- !u!114 &1049571671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049571667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1479587444}
+          m_TargetAssemblyTypeName: Main_UI_Overlay, Assembly-CSharp
+          m_MethodName: OpenCharacterSheet
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1131411181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,7 +1385,7 @@ MonoBehaviour:
   - {fileID: 332725440}
   - {fileID: 1193360623}
   - {fileID: 946665215}
-  Character_Sheet_Prefab: {fileID: 0}
+  Character_Sheet_Prefab: {fileID: 122067115298080745, guid: d18dda3b36260534dbcfca0308d23367, type: 3}
 --- !u!1 &1648359885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +1397,7 @@ GameObject:
   - component: {fileID: 1648359886}
   - component: {fileID: 1648359888}
   - component: {fileID: 1648359887}
+  - component: {fileID: 1648359889}
   m_Layer: 5
   m_Name: HeroSlot (1)
   m_TagString: Untagged
@@ -1372,6 +1463,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648359885}
   m_CullTransparentMesh: 1
+--- !u!114 &1648359889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648359885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1479587444}
+          m_TargetAssemblyTypeName: Main_UI_Overlay, Assembly-CSharp
+          m_MethodName: OpenCharacterSheet
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2142627038
 GameObject:
   m_ObjectHideFlags: 0

@@ -120,17 +120,17 @@ public static class SaveLoad
                 _loadedCharacter.current_Actions = reader.ReadSingle();
                 _loadedCharacter.max_Actions = reader.ReadSingle();
                 _loadedCharacter.weeksOld = reader.ReadSingle();
-                _loadedCharacter.XP = reader.ReadInt32();
-                _loadedCharacter.XP_NNL = reader.ReadInt32();
+                _loadedCharacter.XP = reader.ReadSingle();
+                _loadedCharacter.XP_NNL = reader.ReadSingle();
                 _loadedCharacter.XP_level = reader.ReadInt32();
-                _loadedCharacter.XP_drain = reader.ReadInt32();
+                _loadedCharacter.XP_drain = reader.ReadSingle();
                 _loadedCharacter.attack_bonus = reader.ReadInt32();
                 _loadedCharacter.damage_bonus = reader.ReadInt32();
                 _loadedCharacter.dodge_bonus = reader.ReadInt32();
                 _loadedCharacter.block_bonus = reader.ReadInt32();
                 _loadedCharacter.mental_bonus = reader.ReadInt32();
                 _loadedCharacter.stealth_bonus = reader.ReadInt32();
-                _loadedCharacter.wealth = reader.ReadInt32();
+                _loadedCharacter.wealth = reader.ReadSingle();
 
                 _loadedCharacter.current_weapon = reader.ReadString();
                 _loadedCharacter.current_armor = reader.ReadString();
