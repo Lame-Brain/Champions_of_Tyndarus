@@ -171,15 +171,12 @@ MonoBehaviour:
   mana_bar: {fileID: 122067115736986445}
   actions_bar: {fileID: 122067115440172268}
   xp_bar: {fileID: 122067116332283948}
-  mana_bar_go: {fileID: 122067115690625197}
-  spell_button_go: {fileID: 122067117104020416}
-  text_prefab: {fileID: 8140979354405363612, guid: 48ef4f6522d50ce4a8848def421da2fb, type: 3}
-  condition_detail: {fileID: 0}
-  main_detail: {fileID: 0}
-  inventory_detail: {fileID: 0}
-  skills_detail: {fileID: 0}
-  history_detail: {fileID: 0}
-  magic_detail: {fileID: 0}
+  mana_bar_go: {fileID: 122067117104020416}
+  location_detail: {fileID: 9107961242660678277}
+  condition_detail: {fileID: 4099787850129433922}
+  inventory_detail: {fileID: 4078998175242239723}
+  skills_detail: {fileID: 7733017848159213433}
+  history_detail: {fileID: 7733017848159213433}
 --- !u!1 &122067115308708097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1716,177 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &490366899177413899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4862232625529350867}
+  - component: {fileID: 4347327512314454482}
+  - component: {fileID: 5680957513400910009}
+  m_Layer: 5
+  m_Name: Skills and Traits Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4862232625529350867
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490366899177413899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4762525846365857857}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &4347327512314454482
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490366899177413899}
+  m_CullTransparentMesh: 1
+--- !u!114 &5680957513400910009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490366899177413899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '[Long Name] the [Long Title] has the following skills and traits:
+
+    Light
+    Armor Training
+
+    Medium Armor Training
+
+    Heavy Armor Training
+
+    Light
+    Weapon Trainging
+
+    Medium Weapon Training
+
+    Heavy Weapon Training
+
+    Horse
+    Back Riding
+
+    Leader of Men
+
+    Skullduggery
+
+    Arcane Lore
+
+    Divine
+    Lore
+
+    Training in the Healing Arts
+
+    Chosen by Fate
+
+    Heroic Destiny
+
+    Artifact
+    Shaper
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 11e77954b3397914999480e99b406642, type: 2}
+  m_sharedMaterial: {fileID: 1651419002227795864, guid: 11e77954b3397914999480e99b406642, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &677672219540982518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,6 +2853,7 @@ RectTransform:
   - {fileID: 2906932167828215933}
   - {fileID: 5036359544135939078}
   - {fileID: 3198931164272077539}
+  - {fileID: 4862232625529350867}
   m_Father: {fileID: 603689906936512794}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2755,7 +2924,7 @@ MonoBehaviour:
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!114 &1404463095541773286
 MonoBehaviour:
@@ -2783,7 +2952,7 @@ GameObject:
   - component: {fileID: 7609975115696645964}
   - component: {fileID: 7733017848159213433}
   m_Layer: 5
-  m_Name: Skills and Traits Text
+  m_Name: History Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,8 +3345,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 211488646669519460}
   m_HandleRect: {fileID: 5323014174358081009}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.23207308
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3503,7 +3672,7 @@ MonoBehaviour:
   m_ChildControlWidth: 1
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!114 &3415309304721350928
 MonoBehaviour:
@@ -3518,7 +3687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 2
+  m_VerticalFit: 1
 --- !u!1 &8000462878906984509
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,9 +9,8 @@ public class Character_Sheet_Controller : MonoBehaviour
     public Hero thisHero;
     public Image portrait;
     public Image health_bar, morale_bar, mana_bar, actions_bar, xp_bar;
-    public GameObject mana_bar_go, spell_button_go, text_prefab;
-    public Transform condition_detail;
-    public TextMeshProUGUI main_detail, inventory_detail, skills_detail, history_detail, magic_detail;
+    public GameObject mana_bar_go;
+    public TextMeshProUGUI location_detail, condition_detail, inventory_detail, skills_detail, history_detail;
 
     public void UpdateScreen(Hero hero)
     {
@@ -21,12 +20,10 @@ public class Character_Sheet_Controller : MonoBehaviour
         if (thisHero.max_Mana <= 0)
         {
             mana_bar_go.SetActive(false);
-            spell_button_go.SetActive(false);
         }
         else
         {
             mana_bar_go.SetActive(true);
-            spell_button_go.SetActive(true);
         }
 
         portrait.sprite = AssetManager.instance.Portraits[thisHero.portrait];
@@ -36,30 +33,26 @@ public class Character_Sheet_Controller : MonoBehaviour
         actions_bar.fillAmount = (thisHero.max_Actions - thisHero.current_Actions) / thisHero.max_Actions;
         xp_bar.fillAmount = ((thisHero.XP_NNL + thisHero.XP_drain) - thisHero.XP) / (thisHero.XP_NNL+ thisHero.XP_drain);
 
-        main_detail.text = "Here at [Location] stands <color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>. It is [Time] and the day is [Weather].";
+        location_detail.text = "Here at [Location] stands <color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>. It is [Time] and the day is [Weather].";
 
-        GameObject _go = null;              
-        
-        if (thisHero.effects.Contains("poison")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is poisoned."; }
-        if (thisHero.effects.Contains("regen")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>'s health is regenerating."; }
-        if (thisHero.effects.Contains("curse")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is cursed."; }
-        if (thisHero.effects.Contains("bless")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is blessed."; }
-        if (thisHero.effects.Contains("held")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is helpless."; }
-        if (thisHero.effects.Contains("stone")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>has been turned to stone."; }
-        if (thisHero.effects.Contains("severed")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>'s magic has been severed."; }
-        if (thisHero.effects.Contains("blind")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is blind."; }
-        if (thisHero.effects.Contains("heroic")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is feeling heroic."; }
-        if (thisHero.effects.Contains("unconcious")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is unconcious."; }
-        if (thisHero.effects.Contains("catatonic")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is not responding.."; }
-        if (thisHero.effects.Contains("dead")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> is dead"; }
-        if (thisHero.effects.Contains("ashes")) { _go = Instantiate(text_prefab, condition_detail); _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> has been reduced to ashes."; }
+        condition_detail.text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> has the following special conditions:";
+        if (thisHero.effects.Contains("poison")) condition_detail.text = "Health is draining over time.";
+        if (thisHero.effects.Contains("regen")) condition_detail.text = "Health is regenerating over time.";
+        if (thisHero.effects.Contains("curse")) condition_detail.text = "Cursed with ill luck.";
+        if (thisHero.effects.Contains("bless")) condition_detail.text = "Blessed by the Divine.";
+        if (thisHero.effects.Contains("held")) condition_detail.text = "Unable to move.";
+        if (thisHero.effects.Contains("stone")) condition_detail.text = "Turned to Stone.";
+        if (thisHero.effects.Contains("severed")) condition_detail.text = "Stripped of " + _his + " magical ability.";
+        if (thisHero.effects.Contains("blind")) condition_detail.text = "Cannot see.";
+        if (thisHero.effects.Contains("heroic")) condition_detail.text = "Imbued with a heroic aura.";
+        if (thisHero.effects.Contains("unconcious")) condition_detail.text = "Has fallen unconcious.";
+        if (thisHero.effects.Contains("catatonic")) condition_detail.text = "Has become catatonic.";
+        if (thisHero.effects.Contains("dead")) condition_detail.text = "Is dead.";
+        if (thisHero.effects.Contains("ashes")) condition_detail.text = "Corpse has been reduced to ashes.";
         if (!thisHero.effects.Contains("poison") && !thisHero.effects.Contains("regen") && !thisHero.effects.Contains("curse") && !thisHero.effects.Contains("bless") && !thisHero.effects.Contains("held") 
             && !thisHero.effects.Contains("stone") && !thisHero.effects.Contains("severed") && !thisHero.effects.Contains("blind") && !thisHero.effects.Contains("heroic") && !thisHero.effects.Contains("unconcious") 
-            && !thisHero.effects.Contains("catatonic") && !thisHero.effects.Contains("dead") && !thisHero.effects.Contains("ashes"))
-        { 
-            _go = Instantiate(text_prefab, condition_detail); 
-            _go.GetComponent<TextMeshProUGUI>().text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> has no special conditions."; 
-        }    
+            && !thisHero.effects.Contains("catatonic") && !thisHero.effects.Contains("dead") && !thisHero.effects.Contains("ashes")) 
+                condition_detail.text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color> has no special conditions.";
 
         if (thisHero.gender == CoT_Game.Gender.she) { _he = "she"; _his = "her"; _him = "her"; }
         if(thisHero.gender == CoT_Game.Gender.it) { _he = "it"; _his = "its"; _him = "it"; }
@@ -98,21 +91,6 @@ public class Character_Sheet_Controller : MonoBehaviour
         if (thisHero.upbringing == "Trade") history_detail.text += "to a skilled tradesman for a father, but was not noble or rich. " + CoT_Namespace.Capitalize(_he) + " is likely to be accepted by the middle classes, but will be looked down upon by nobles.";
         if (thisHero.upbringing == "Street") history_detail.text += "in the gutter and raised in the street. " + CoT_Namespace.Capitalize(_he) + " is likely to be looked down upon by both noble and middle classes";
         if (thisHero.upbringing == "Farmer") history_detail.text += "in the country. " + CoT_Namespace.Capitalize(_he) + " is likely to be looked down upon by any of the other classes, but is better prepared to take care of " + _him + "self in the wilds.";
-
-        magic_detail.text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>";
-        if (thisHero.spells.Count > 0)
-        {
-            magic_detail.text += " knows the following spells:\n";
-            for (int _i = 0; _i < thisHero.spells.Count; _i++) magic_detail.text += thisHero.spells[_i] + "\n";
-            if (thisHero.prayers.Count > 0) magic_detail.text = "<color=green>" + thisHero.name + "</color> the <color=blue>" + thisHero.title + "</color>";
-        }
-
-        if (thisHero.prayers.Count > 0)
-        {
-            magic_detail.text += " knows the following prayers:\n";
-            for (int _i = 0; _i < thisHero.prayers.Count; _i++) magic_detail.text += thisHero.prayers[_i] + "\n";
-        }
-
     }
 
     public void CloseScreen()
