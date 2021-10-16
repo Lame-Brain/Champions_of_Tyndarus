@@ -1,0 +1,29 @@
+﻿0. Bridge flow north
+1. Bridge flow east
+2. Bridge flow south
+3. Bridge flow west
+4. Deep water
+5. Beach, Water in nw corner
+6. Dirt
+7. Grass
+8. River flow north
+9. River flow east
+10. River flow south
+11. Void
+12. River flow west
+13. Sand
+14. Shallow water
+15. Rock
+16. Beach, water south
+17. null
+18. Beach, water east
+19. Beach, water ne
+20. Beach, water se
+21. Beach, water west
+22. Beach water north
+23. Null
+24. Beach, sand sw
+25. Beach, sand nw
+26. Beach, sand ne
+27. Beach, sand se
+28. Beach, water sw
