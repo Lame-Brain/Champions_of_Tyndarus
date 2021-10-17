@@ -27,3 +27,19 @@
 26. Beach, sand ne
 27. Beach, sand se
 28. Beach, water sw
+
+
+
+-1 = null
+0 = citadel
+1 = hill
+3 = mountain
+4 = standingstones
+5 = tower
+6 = trees
+7 = village
+8 = hill cave
+9 = keep
+10 = monolith
+11 = mountain cave
+12 = ruin

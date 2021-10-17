@@ -65,6 +65,9 @@ TextureImporter:
   - first:
       213: 8016651843525807075
     second: red_army2
+  - first:
+      213: -6298780857621301918
+    second: Ruins
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -626,6 +629,27 @@ TextureImporter:
       bones: []
       spriteID: 3eb065da06ed04f60800000000000000
       internalID: 8016651843525807075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b37fae2c3698a0800000000000000
+      internalID: -6298780857621301918
       vertices: []
       indices: 
       edges: []
