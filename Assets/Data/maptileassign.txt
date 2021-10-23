@@ -1,33 +1,31 @@
-﻿0. Bridge flow north
-1. Bridge flow east
-2. Bridge flow south
-3. Bridge flow west
-4. Deep water
-5. Beach, Water in nw corner
-6. Dirt
-7. Grass
-8. River flow north
-9. River flow east
-10. River flow south
-11. Void
-12. River flow west
-13. Sand
-14. Shallow water
-15. Rock
-16. Beach, water south
-17. null
-18. Beach, water east
-19. Beach, water ne
-20. Beach, water se
-21. Beach, water west
-22. Beach water north
-23. Null
-24. Beach, sand sw
-25. Beach, sand nw
-26. Beach, sand ne
-27. Beach, sand se
-28. Beach, water sw
-
+﻿1. Bridge flow north
+2. Bridge flow east
+3. Bridge flow south
+4. Bridge flow west
+5. Deep water
+6. Beach, Water in nw corner
+7. Dirt
+8. Grass
+9. River flow north
+10. River flow east
+11. River flow south
+12. Void
+13. River flow west
+14. Sand
+15. Shallow water
+16. Rock
+17. Beach, water south
+18. null
+19. Beach, water east
+20. Beach, water ne
+21. Beach, water se
+22. Beach, water west
+23. Beach water north
+24. Null
+25. Beach, sand sw
+26. Beach, sand nw
+27. Beach, sand ne
+28. Beach, sand se
 
 
 -1 = null
@@ -43,3 +41,235 @@
 10 = monolith
 11 = mountain cave
 12 = ruin
+
+
+
+
+Bad Guy Wizard: Annuvis
+Good Guy Wizard: Arthugh
+
+
+Kingdoms:
+1. Thargonde (Cyan)
+2. Hilmonde (Blue)
+3. Eregion (Pink)
+4. Karnande (Yellow)
+5. Dorthimlor (Green)
+6. Nalukkhizd (Black)
+
+
+Locations:
+1. The Steel Spires Mountain Range
+2. Hilmonde Mountain Range
+3. Sea of Meda
+4. Thargonde
+   1. Woods1 (big) [Thargonde Forest]
+   2. Woods2 (medium) [Llantre Woods]
+   3. Woods3 (in the valley) [Corido woods]
+   4. Valley [Corido Valley]
+   5. Hilly region [Enecaf Fells]
+   6. Hilly peninsula [Aecaldaf Hills]
+   7. Lone mountain peak [Eckbron Peak]
+   8. Mountain peak with Citadel [Mount Thargonde]
+5. Hilmonde
+   1. Eastern coastal hills [Hilmonde Downs]
+   2. Central forest valley [Hilmonde Woods]
+   3. Western region abutting the Mountains (Hilmonde Range) [Dagger Hills]
+   4. Mountain [Montmagne Summit]
+6. Eregion
+   1. East region [Peregrine Plains]
+   2. Western Region [Eregion Plains]
+   3. Woods [Starleaf Vale]
+7. Ellisden Summit (Between Eregion and Karnande)
+8. Karnande (guardian kingdom)
+   1. Eastern region [Juchi Plains]
+   2. Eastern woods1 [Karnande Woods]
+   3. Eastern Woods2 [Karnande Forest]
+   4. Central mountain [Mt Draycona]
+   5. Desert [The Riven Desert]
+   6. Southern woods [Karnande Grove]
+   7. Southern region [Karnande Plains]
+9. Dorthimlor
+   1. Eastern woods1 [Llandy Vale]
+   2. Eastern woods2 [The Vale of Omens]
+   3. Western hills [Leofa Downs]
+   4. Northern valley [Pytta Valley]
+   5. Mountain [Dayston Pinnacle]
+10. Nalukkhizd (Evil Kingdom, territory of the 6 Demon Spires)
+   1. Border Mountains [Steel Spire, as above]
+   2. Southern hills [Cinder Hills]
+   3. Mountain 1  [Biryani]
+   4. Mountain 2 [Sphai]
+   5. Mountain 3 [Oumeauryn]
+   6. Mountain 4 [Eftsmu]
+   7. Mountain 5 [Grim]
+   8. Mountain 6 [Arawn]
+
+
+
+
+Regions:
+1. The Steel Spires Mountain Range
+2. Hilmonde Mountain Range
+3. Sea of Meda
+
+
+4. Woods1 (big) [Thargonde Forest]
+5. Woods2 (medium) [Llantre Woods]
+6. Woods3 (in the valley) [Corido woods]
+7. Valley [Corido Valley]
+8. Hilly region [Enecaf Fells]
+9. Hilly peninsula [Aecaldaf Hills]
+10. Lone mountain peak [Eckbron Peak]
+11. Mountain peak with Citadel [Mount Thargonde]
+Hilmonde
+12. Eastern coastal hills [Hilmonde Downs]
+13. Central forest valley [Hilmonde Woods]
+14. Western region abutting the Mountains (Hilmonde Range) [Dagger Hills]
+15. Mountain [Montmagne Summit]
+
+
+16. East region [Peregrine Plains]
+17. Western Region [Eregion Plains]
+18. Woods [Starleaf Vale]
+19. Ellisden Summit (Between Eregion and Karnande)
+
+
+20. Eastern region [Juchi Plains]
+21. Eastern woods1 [Karnande Woods]
+22. Eastern Woods2 [Karnande Forest]
+23. Central mountain [Mt Draycona]
+24. Desert [The Riven Desert]
+25. Southern woods [Karnande Grove]
+26. Southern region [Karnande Plains]
+27. Pass to Nalukkhizd
+
+
+28. Eastern woods1 [Llandy Vale]
+29. Eastern woods2 [The Vale of Omens]
+30. Western hills [Leofa Downs]
+31. Northern valley [Pytta Valley]
+32. Mountain [Dayston Pinnacle]
+
+
+33. Southern hills [Cinder Hills]
+34. Mountain 1  [Biryani]
+35. Mountain 2 [Sphai]
+36. Mountain 3 [Oumeauryn]
+37. Mountain 4 [Eftsmu]
+38. Mountain 5 [Grim]
+39. Mountain 6 [Arawn]
+40. Northern Peninsula (above Nalukkhizd)
+41. Northern Ocean
+42. Eastern Ocean
+43. Southern Ocean
+44. Western Ocean
+
+
+45. Thargonde plains
+46. Thargonde Coast
+47. Thargonde River
+48. Hilmonde Coast
+49. Hilmonde
+50. Hilmonde River
+51. Eregion River
+52. Eregion Coast
+53. Karnande Plains
+54. Karnande Coast
+55. Karnande Hills
+56. Dorthimlor Woods
+57. Dorthimlor Plains
+58. Dorthimlor Coast
+59. Dorthimlor River
+60. Nalukkhizd
+61. Beach
+
+
+________________
+
+
+
+
+Towns, Caers, and other PoIs
+1. Caer Thargonde 19, 13
+2. Caer Hilmonde (17, 30)
+3. Caer Eregion 14, 42
+4. Caer Karnande 41, 56
+5. Caer Dorthimlor 56, 44
+6. Caer Nalukkhizd 57, 20
+
+
+7. (Thargonde Village) 8, 20
+8. Eregion village 6, 37
+9. Eregion village east 26, 36
+10. Karnande East Village 23, 44
+11. Karnande West Village 51, 48
+12. Dorthimlor village 59, 34
+
+
+13. Northern Thargonde Mountain Cave 47, 14
+14. (Thargonde Mountain Cave) 25, 7
+15. Karnande Mountain Cave 46, 39
+16. Dorthimlor Mountain Cave 58, 28
+17. Nalukkhizd Mountain Cave 34, 29
+
+
+18. Hill Cave in Thargonde 4, 22
+19. Hill Cave in Thargonde 31, 25 (Cordio Valley)
+20. Hill Cave in Hilmonde 13, 29
+21. Hill Cave in Hilmonde 26,30
+22. Eregion hill cave 25, 33
+23. Ergion Hill Cave 18, 40
+24. Hill Cave in Karnande 42, 44
+25. Karnande Hill Cave 33, 48
+
+
+26. Fort in Thargonde 18, 18
+27. Fort in Thargonde 10, 20
+28. Fort in Eregion 20, 40
+29. Fort in Karnande 29, 41
+30. Karnande Fort (Cinder Pass) 41, 38
+
+
+31. (Bridge across Thargonde river) 11, 21
+32. (Bridge across Thargonde river) 19, 20
+33. Bridge across Hilmonde River, west 6,36
+34. Bridge across Hilmonde River, Center 12, 37
+35. Bridge across Hilmonde River, east 17,36
+36. Bridge across Eregion River 23, 43
+37. Bridge Across Dorthimlor River North 50,44
+38. Bridge Across Dorthimlor River South 52,48
+
+
+39. Dorthmilor Lith 62, 47
+40. Karnande Lith 44, 58
+41. Thargonde Lith 7, 16
+42. Karnande Lith 4, 35
+
+
+43. Nalukkhizd Standing Stone 62,23
+44. Karnande Standing Stones 39, 58
+45. Eregion Standing Stones 27, 40
+46. Karnande Standing Stones 23, 25
+47. Thargonde Standing Stones 38, 11
+
+
+48. Ruins 39, 8
+49. Ruins 31, 8
+50. Ruins 29, 51
+51. Ruins 40, 61
+52. Ruins 47, 30
+53. Ruins 43, 30
+54. Ruins 44, 23
+55. Ruins 49, 21
+
+
+
+
+Towers:
+1. Arthugh’s Tower 19, 11
+2. Edoill’s Tower 19, 35
+3. Aventt’s Tower 36, 35
+4. Lichama’s Tower 36, 52
+5. Kentha’s Tower 52, 52
+6. Arderi’s Tower 52, 25
