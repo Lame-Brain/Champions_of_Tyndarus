@@ -199,59 +199,59 @@ Towns, Caers, and other PoIs
 6. Caer Nalukkhizd 57, 20
 
 
-7. (Thargonde Village) 8, 20
-8. Eregion village 6, 37
-9. Eregion village east 26, 36
-10. Karnande East Village 23, 44
-11. Karnande West Village 51, 48
-12. Dorthimlor village 59, 34
+7. (Thargonde Village) 8, 20 Watford
+8. Eregion village 6, 37 Gramsby
+9. Eregion village east 26, 36 Solime
+10. Karnande East Village 23, 44 Penshaw
+11. Karnande West Village 51, 48 Northon
+12. Dorthimlor village 59, 34 Faversham
 
 
-13. Northern Thargonde Mountain Cave 47, 14
-14. (Thargonde Mountain Cave) 25, 7
-15. Karnande Mountain Cave 46, 39
-16. Dorthimlor Mountain Cave 58, 28
-17. Nalukkhizd Mountain Cave 34, 29
+13. Northern Thargonde Mountain Cave 47, 14 Ablodge Chasm
+14. (Thargonde Mountain Cave) 25, 7 Shawthorn Cavern
+15. Karnande Mountain Cave 46, 39 Colebel Cave
+16. Dorthimlor Mountain Cave 58, 28 Gravelford Hollow
+17. Nalukkhizd Mountain Cave 34, 29 Davelcarres Chasm
 
 
-18. Hill Cave in Thargonde 4, 22
-19. Hill Cave in Thargonde 31, 25 (Cordio Valley)
-20. Hill Cave in Hilmonde 13, 29
-21. Hill Cave in Hilmonde 26,30
-22. Eregion hill cave 25, 33
-23. Ergion Hill Cave 18, 40
-24. Hill Cave in Karnande 42, 44
-25. Karnande Hill Cave 33, 48
+18. Hill Cave in Thargonde 4, 22 Thargonde Grotto
+19. Hill Cave in Thargonde 31, 25 (Cordio Chasm)
+20. Hill Cave in Hilmonde 13, 29 Wixter Chasm
+21. Hill Cave in Hilmonde 26, 30 Wayfil Hole
+22. Eregion hill cave 25, 33 The Whelming Grotto
+23. Ergion Hill Cave 18, 40 Warcrier Den
+24. Hill Cave in Karnande 42, 44 Kirsby Deeps
+25. Karnande Hill Cave 33, 48 Trimagne Chasm
 
 
-26. Fort in Thargonde 18, 18
-27. Fort in Thargonde 10, 20
-28. Fort in Eregion 20, 40
-29. Fort in Karnande 29, 41
-30. Karnande Fort (Cinder Pass) 41, 38
+26. Fort in Thargonde 18, 18 Coppermill post
+27. Fort in Thargonde 10, 20 Eastband Bulwark
+28. Fort in Eregion 20, 40 Coldsea Fort
+29. Fort in Karnande 29, 41 Kingshill Fort
+30. Karnande Fort (Cinder Pass) 41, 38 Cinder Fort
 
 
-31. (Bridge across Thargonde river) 11, 21
-32. (Bridge across Thargonde river) 19, 20
-33. Bridge across Hilmonde River, west 6,36
-34. Bridge across Hilmonde River, Center 12, 37
-35. Bridge across Hilmonde River, east 17,36
-36. Bridge across Eregion River 23, 43
-37. Bridge Across Dorthimlor River North 50,44
-38. Bridge Across Dorthimlor River South 52,48
+31. (Bridge across Thargonde river) 11, 21 The Capital Crossing
+32. (Bridge across Thargonde river) 19, 20 The Lonely Span
+33. Bridge across Hilmonde River, west 6,36 Conrial Bridge
+34. Bridge across Hilmonde River, Center 12, 37 Taunwell Bridge
+35. Bridge across Hilmonde River, east 17,36 Cudgough Span
+36. Bridge across Eregion River 23, 43 Eregion Bridge
+37. Bridge Across Dorthimlor River North 50,44 Sapphire Span
+38. Bridge Across Dorthimlor River South 52,48 Venmark Crossing
 
 
-39. Dorthmilor Lith 62, 47
-40. Karnande Lith 44, 58
-41. Thargonde Lith 7, 16
-42. Karnande Lith 4, 35
+39. Dorthmilor Lith 62, 47 Titan Spire
+40. Karnande Lith 44, 58 Judgment Stone
+41. Thargonde Lith 7, 16 Stone of Cosmos
+42. Karnande Lith 4, 35 Immortal Spire
 
 
-43. Nalukkhizd Standing Stone 62,23
-44. Karnande Standing Stones 39, 58
-45. Eregion Standing Stones 27, 40
-46. Karnande Standing Stones 23, 25
-47. Thargonde Standing Stones 38, 11
+43. Nalukkhizd Standing Stone 62,23 Caion
+44. Karnande Standing Stones 39, 58 Tonnir
+45. Eregion Standing Stones 27, 40 The White Stones
+46. Karnande Standing Stones 23, 25 Eprekata
+47. Thargonde Standing Stones 38, 11 Naleowani
 
 
 48. Ruins 39, 8
